@@ -14,8 +14,8 @@
 	</prerequisites>
 
 	<properties>
-		<vaadin.version>8.6.3</vaadin.version>
-		<vaadin.plugin.version>8.6.3</vaadin.plugin.version>
+		<vaadin.version>8.10.2</vaadin.version>
+		<vaadin.plugin.version>8.10.2</vaadin.plugin.version>
 		<jetty.plugin.version>9.4.14.v20181114</jetty.plugin.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -69,7 +69,7 @@
 		<dependency>
 			<groupId>com.cisco.stbarth.netconf</groupId>
 			<artifactId>anc</artifactId>
-			<version>0.3-SNAPSHOT</version>
+			<version>0.4-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.cisco.stbarth.netconf</groupId>
@@ -79,22 +79,22 @@
 		<dependency>
 			<groupId>org.opendaylight.yangtools</groupId>
 			<artifactId>yang-parser-impl</artifactId>
-			<version>2.1.6</version>
+			<version>4.0.7</version>
 		</dependency>
 		<dependency>
 			<groupId>com.google.protobuf</groupId>
 			<artifactId>protobuf-java-util</artifactId>
-			<version>3.6.1</version>
+			<version>3.11.4</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
-			<version>1.7.25</version>
+			<version>1.7.30</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-simple</artifactId>
-			<version>1.7.25</version>
+			<version>1.7.30</version>
 		</dependency>
 	</dependencies>
 
